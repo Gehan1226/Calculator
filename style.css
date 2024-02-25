@@ -1,0 +1,73 @@
+body {
+    background: #16222A;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #000000, #16222A);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1f2325, #132b3a);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.card {
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1e262a;
+    box-shadow: rgb(238, 3, 3) 0px 2px 20px 4px;
+    border-radius: 10px;
+    height: 650px;
+    width: 25rem;
+}
+
+.border {
+    border-radius: 10px;
+    box-shadow: rgba(177, 40, 40, 0.56) 0px 22px 70px 4px;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+input {
+    border-radius: 10px;
+    text-align: right;
+    padding-right: 20px;
+    font-size: 28px;
+
+}
+
+.btn {
+    font-size: 20px;
+    height: 70px;
+    width: 65px;
+}
+
+span {
+    color: rgb(8, 255, 16);
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    margin-left: 15px;
+
+}
+
+hr {
+    color: rgb(85, 214, 83);
+}
+
+
+@media screen and (max-width: 768px) {
+    .card {
+        margin-top: 10%;
+        width: 20rem;
+        height: 550px;
+    }
+
+    .btn {
+        font-size: 15px;
+        height: 50px;
+        width: 47px;
+    }
+
+}
